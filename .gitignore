@@ -1,0 +1,18 @@
+# Operating system
+.DS_Store
+
+# Dependencies and build output
+node_modules/
+.next/
+out/
+dist/
+coverage/
+
+# Local configuration and credentials
+.env*
+!.env.example
+.vercel/
+
+# Logs
+*.log
+
