@@ -2,7 +2,7 @@
 
 An agent-first public library of versioned operating knowledge, built with [KL4A](https://github.com/CogniSwitch/KL4A).
 
-**Domain:** SoPforAgents.com  
+**Domain:** SoPforAgents.com
 **Status:** Project setup. The website and knowledge bundles are planned.
 
 ## Project direction
@@ -48,4 +48,3 @@ Do not represent extracted or unreviewed knowledge as an organization's approved
 ## Repository setup
 
 This repository currently contains project documentation and Git ignore rules. Application scaffolding, Prismic configuration, knowledge bundles, and custom-domain setup will follow.
-
