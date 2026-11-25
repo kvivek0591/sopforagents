@@ -16,8 +16,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "SoPforAgents",
-  description: "An agent-first public library of operating knowledge, built with KL4A.",
+  title: "SoPforAgents | Operating knowledge for AI agents",
+  description: "Building a public library of source-backed knowledge bundles with KL4A, starting with prior authorization across US health insurers.",
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {

@@ -3,13 +3,13 @@
 An agent-first public library of versioned operating knowledge, built with [KL4A](https://github.com/CogniSwitch/KL4A).
 
 **Domain:** SoPforAgents.com
-**Status:** Next.js and Prismic initialized. The website experience and knowledge bundles are planned.
+**Status:** The project introduction is live on SoPforAgents.com. The first knowledge bundle is in preparation.
 
 ## Project direction
 
 Transform suitable publicly available SOPs, policies, and regulatory documents into downloadable, source-backed knowledge bundles. Users can inspect and review a bundle, add their organization's procedures, and expose it to their agents through KL4A MCP.
 
-Start within US healthcare operations, with health data access and privacy as the proposed first vertical and information-blocking exceptions as the proposed first bundle. Expand into selected healthcare verticals as useful bundles are built.
+Start within US healthcare operations, with prior authorization across leading US health insurers as the first focus. Individual source documents, reuse rights, and coverage boundaries remain under review. Expand into selected healthcare verticals as useful bundles are built.
 
 Regulatory requirements, source policies, and organization-approved SOPs retain distinct source and review status.
 
@@ -47,7 +47,7 @@ Do not represent extracted or unreviewed knowledge as an organization's approved
 
 ## Repository setup
 
-The Next.js app is connected to the [sopforagents Prismic repository](https://sopforagents.prismic.io). Knowledge bundles, catalog routes, and custom-domain setup remain planned.
+The Next.js app is connected to the [sopforagents Prismic repository](https://sopforagents.prismic.io) and deployed at [SoPforAgents.com](https://www.sopforagents.com). The introduction is currently rendered in `src/app/page.tsx`; `public/llms.txt` provides the same project scope and development status in plain text for agents. Knowledge bundles and catalog routes remain planned.
 
 Install dependencies and start the local app:
 

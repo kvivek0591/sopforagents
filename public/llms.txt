@@ -1,0 +1,25 @@
+# SoPforAgents
+
+> A public project building source-backed operating knowledge for AI agents with KL4A.
+
+## Project status
+
+The project is in development. No knowledge bundles are published or available to download yet.
+
+## First domain and focus
+
+- Domain: US healthcare operations.
+- Focus: prior authorization across leading US health insurers.
+- First bundle: in preparation; source selection, reuse rights, and coverage boundaries are under review.
+
+## Planned workflow
+
+Public SOPs, policies, and guidelines will be transformed through KL4A into versioned knowledge bundles. Users will download a bundle, inspect its source evidence and review status, extend it with their own procedures, and expose it to agents through KL4A MCP.
+
+Source requirements and organization-approved procedures will have distinct provenance and review status. This brief describes a project in development and contains no reviewed insurer requirements.
+
+## Available resources
+
+- [Project website](https://www.sopforagents.com/)
+- [Project repository and public development](https://github.com/kvivek0591/sopforagents)
+- [KL4A source and documentation](https://github.com/CogniSwitch/KL4A)
