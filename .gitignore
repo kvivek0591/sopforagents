@@ -15,3 +15,8 @@ coverage/
 
 # Logs
 *.log
+
+# Generated Next.js files
+/build/
+*.tsbuildinfo
+next-env.d.ts

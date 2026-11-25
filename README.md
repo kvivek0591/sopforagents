@@ -3,7 +3,7 @@
 An agent-first public library of versioned operating knowledge, built with [KL4A](https://github.com/CogniSwitch/KL4A).
 
 **Domain:** SoPforAgents.com
-**Status:** Project setup. The website and knowledge bundles are planned.
+**Status:** Next.js and Prismic initialized. The website experience and knowledge bundles are planned.
 
 ## Project direction
 
@@ -47,4 +47,17 @@ Do not represent extracted or unreviewed knowledge as an organization's approved
 
 ## Repository setup
 
-This repository currently contains project documentation and Git ignore rules. Application scaffolding, Prismic configuration, knowledge bundles, and custom-domain setup will follow.
+The Next.js app is connected to the [sopforagents Prismic repository](https://sopforagents.prismic.io). Knowledge bundles, catalog routes, and custom-domain setup remain planned.
+
+Install dependencies and start the local app:
+
+```sh
+npm install
+npm run dev
+```
+
+Validate the app with `npm run lint` and `npm run build`.
+
+Prismic configuration lives in `prismic.config.json`; the API client is `src/prismicio.ts`. Preview routes are `/api/preview` and `/api/exit-preview`; `/api/revalidate` handles content-update webhooks. The root layout includes the Prismic preview integration, and `/slice-simulator` provides the generated slice preview route. Content types and slices have not been authored yet.
+
+The current Prismic CLI requires request tracking: run `npx prismic@latest task-id`, then pass the returned `--task-id` and the same `--user-intent` on Prismic commands for that request. Authentication credentials stay outside Git.
